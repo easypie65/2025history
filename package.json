@@ -1,5 +1,5 @@
 {
-  "name": "2025shistory",
+  "name": "3학년-활동-앨범",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,8 +14,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "typescript": "^5.8.2",
-    "vite": "^6.3.5",
-    "@vitejs/plugin-react": "^4.3.0"
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
   }
 }
