@@ -1,23 +1,18 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>3학년 활동 앨범</title>
+    <!-- ✅ favicon.ico 없을 경우 404 방지 -->
+    <link rel="icon" href="data:,">
+    <!-- Tailwind 사용 시 CDN, 필요 없으면 제거 가능 -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
-  }
-}
-</script>
-</head>
-  <body class="bg-slate-100">
+  </head>
+  <body class="bg-slate-50">
     <div id="root"></div>
+    <!-- ✅ Vite가 TSX → JS로 자동 빌드 -->
+    <!-- 절대 직접 index-xxxxx.js를 적지 말 것 -->
+    <script type="module" src="/src/index.tsx"></script>
   </body>
 </html>
